@@ -1,6 +1,6 @@
 # Practica: Consumiendo APIs de terceros
 
-En esta practica se mostrara como consumir APIs externos, usando Angular version 18.2, en esta version no tenemos creado app.module.ts por lo que antes de continuar sera necesario crear un nuevo proyecto en formato "no standalone"
+En esta practica se mostrara como consumir APIs externos, usando Angular version 18.2, en esta version no tenemos creado app.module.ts por lo que antes de continuar sera necesario crear un nuevo proyecto en formato 'no standalone'
 
 ## 1. Creacion del proyecto
 
