@@ -1,10 +1,12 @@
-# ConsumoApiINICIALES
+# Practica: Consumiendo APIs de terceros
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+En esta practica se mostrara como consumir APIs externos, usando Angular version 18.2, en esta version no tenemos creado app.module.ts por lo que antes de continuar sera necesario crear un nuevo proyecto en formato "no standalone"
 
-## Development server
+## 1. Creacion del proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Colocar el comando ng new consumo-api-INICIALES --no-standalone
+![image](https://github.com/user-attachments/assets/1c7437fe-f845-49d5-b5cb-50033eb5d904)
+
 
 ## Code scaffolding
 
