@@ -49,13 +49,56 @@ Las APIs suelen cambiar, por lo que en ocasiones podemos ver mas o menos informa
 
 ## 7. Diseño de la tabla
 Modificando el .css de nuestro componente podemos darle mas diseño a nuestro componente, colocaremos diferentes colores y tamaños de letra 
+
 ![image](https://github.com/user-attachments/assets/6beb2504-6a4e-4032-9e5b-7251609d6319)
+
+![image](https://github.com/user-attachments/assets/e12842c3-6db1-498c-8ed2-0fb379fb4e15)
+
 
 ## 8. Crear paginacion
 En casos donde las APIs tiene muchos gatos podriamos usar paginacion para ver la informacion por bloques 
 Descargamos la libreria `ngx-pagination` con el siguiente comando
 ![image](https://github.com/user-attachments/assets/76533d67-8d67-4342-8d3c-1e9a384358df)
 
-Finalmente modificar 
+Importamos `NgxPaginationModule` en el archivo `app.module.ts`
+Modificamos en nuestro .html
+![image](https://github.com/user-attachments/assets/70bf3b81-d43a-4fb3-8a08-911b92fae52c)
+
+![image](https://github.com/user-attachments/assets/4e52dd15-8a77-4879-b140-fa287be1030b)
+
+
+
+#Preguntas sobre la parctica
+## ¿Qué hace el método getUsers en este servicio?
+Permite obtener lo datos de la API
+
+## ¿Por qué es necesario importar HttpClientModule?
+Para poder realizar peticiones
+
+## ¿Qué función cumple el método ngOnInit en el componente UserListComponent?
+Inicializa los datos del usuario 
+
+## ¿Para qué sirve el bucle *ngFor en Angular? Explica cómo se utiliza en este ejemplo.
+
+El bucle *ngFor es una directiva estructural en Angular que se utiliza para iterar sobre un array y renderizar un elemento HTML por cada elemento del array.
+
+<tr *ngFor="let user of users">
+  <td>{{ user.id }}</td>
+  <td>{{ user.name }}</td>
+  <td>{{ user.email }}</td>
+  <td>{{ user.role }}</td>
+</tr>
+En el ejemplo lo que hace es asignar las variables de la Api a user, ademas coloca cada variable en una columna de la tabla
+
+# Preguntas de reflexión final
+## ¿Qué ventajas tiene el uso de servicios en Angular para el consumo de APIs?
+ Angular distingue los componentes de los servicios para aumentar la modularidad y la reutilización1.
+
+## ¿Qué otros tipos de datos o APIs podrías integrar en un proyecto como este?
+•	Productos 
+•	Noticias
+•	Clima
+
+
 
 
